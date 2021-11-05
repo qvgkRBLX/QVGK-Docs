@@ -23,6 +23,15 @@ const style = `.tag {
 .unreleased {
 	background-color: rgb(48,22,107)
 }
+.qvgk {
+	background-color: rgb(214,72,78)
+}
+.aiden_12114 {
+	background-color: rgb(214,72,78)
+}
+.verified {
+	background-color: rgb(128,158,132)
+}
 h4 {
     display: inline;
 }`
@@ -32,6 +41,9 @@ var replaceStuff = [
     ["{abandoned}", '<p class="tag abandoned">abandoned</p>'],
 	["{wip}", '<p class="tag wip">work in progress</p>'],
 	["{unreleased}", '<p class="tag unreleased">unreleased</p>'],
+	["{qvgk}", '<p class="tag qvgk">QVGK Resource</p>'],
+	["{aiden_12114}", '<p class="tag aiden_12114">Aiden_12114 Resource</p>'],
+	["{verified}", '<p class="tag verified">VERIFIED</p>'],
 ];
 
 function replace(element) {
